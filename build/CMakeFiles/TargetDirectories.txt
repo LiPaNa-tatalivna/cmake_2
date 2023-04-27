@@ -1,0 +1,3 @@
+/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/Cmake_figura.dir
+/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/ALL_BUILD.dir
+/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/ZERO_CHECK.dir

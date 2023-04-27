@@ -1,0 +1,684 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Darwin - 19.6.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Command line invocation:
+          /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+      
+      note: Using new build system
+      note: Planning build
+      note: Constructing build description
+      warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+      CreateBuildDirectory /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          builtin-create-build-directory /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist
+      
+      ProcessProductPackaging "" /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          
+      
+      Entitlements:
+      
+      {
+          "com.apple.security.get-task-allow" = 1;
+      }
+      
+      
+          builtin-productPackagingUtility -entitlements -format xml -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+      
+      CompileC /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          export LANG\\=en_US.US-ASCII
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos10.15 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility\\=hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/include -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/x86_64 -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/x86_64 -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC -MMD -MT dependencies -MF /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.c -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
+      
+      Ld /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC normal (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      
+      PhaseScriptExecution Run\\ Script /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          /bin/sh -c /Users/lizastepanova/Desktop/\\\\н\\\\е\\\\о\\\\т\\\\о\\\\л\\\\о\\\\г\\\\и\\\\я/\\\\О\\\\с\\\\н\\\\о\\\\в\\\\н\\\\о\\\\й/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+      ARCHS=x86_64
+      
+      CodeSign /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          export CODESIGN_ALLOCATE\\=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+          
+      Signing Identity:     "-"
+      
+          /usr/bin/codesign --force --sign - --entitlements /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent --timestamp\\=none /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC
+      
+      RegisterExecutionPolicyException /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC
+          builtin-RegisterExecutionPolicyException /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC
+      
+      ** BUILD SUCCEEDED **
+      
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Command line invocation:
+          /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+      
+      note: Using new build system
+      note: Planning build
+      note: Constructing build description
+      warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+      CreateBuildDirectory /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          builtin-create-build-directory /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist
+      
+      ProcessProductPackaging "" /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          
+      
+      Entitlements:
+      
+      {
+          "com.apple.security.get-task-allow" = 1;
+      }
+      
+      
+          builtin-productPackagingUtility -entitlements -format xml -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+      
+      CompileC /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          export LANG\\=en_US.US-ASCII
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos10.15 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility\\=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/include -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/x86_64 -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX -MMD -MT dependencies -MF /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+      
+      Ld /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX normal (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX
+      
+      WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      
+      PhaseScriptExecution Run\\ Script /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          /bin/sh -c /Users/lizastepanova/Desktop/\\\\н\\\\е\\\\о\\\\т\\\\о\\\\л\\\\о\\\\г\\\\и\\\\я/\\\\О\\\\с\\\\н\\\\о\\\\в\\\\н\\\\о\\\\й/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+      ARCHS=x86_64
+      
+      CodeSign /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          export CODESIGN_ALLOCATE\\=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+          
+      Signing Identity:     "-"
+      
+          /usr/bin/codesign --force --sign - --entitlements /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent --timestamp\\=none /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX
+      
+      RegisterExecutionPolicyException /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX
+          builtin-RegisterExecutionPolicyException /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX
+      
+      ** BUILD SUCCEEDED **
+      
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/lizastepanova/Desktop/\u043d\u0435\u043e\u0442\u043e\u043b\u043e\u0433\u0438\u044f/\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0438\u0306/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE"
+      binary: "/Users/lizastepanova/Desktop/\u043d\u0435\u043e\u0442\u043e\u043b\u043e\u0433\u0438\u044f/\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0438\u0306/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE
+        
+        Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ddfee -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ddfee -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+        
+        note: Using new build system
+        note: Building targets in parallel
+        note: Planning build
+        note: Constructing build description
+        CreateBuildDirectory /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build (in target 'cmTC_ddfee' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE
+            builtin-create-build-directory /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build
+        
+        WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee.LinkFileList (in target 'cmTC_ddfee' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE
+            write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee.LinkFileList
+        
+        CompileC /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_ddfee' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos10.15 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR\\=\\"Debug\\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/include -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources-normal/x86_64 -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources/x86_64 -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCCompilerABI.c -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.o
+        Apple clang version 12.0.0 (clang-1200.0.32.29)
+        Target: x86_64-apple-macos10.15
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -dependency-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/include -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources-normal/x86_64 -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources/x86_64 -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdebug-compilation-dir /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.dia -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.o -x c /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0
+        ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/include"
+        ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources-normal/x86_64"
+        ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources/x86_64"
+        ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources"
+        ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        
+        Ld /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/cmTC_ddfee normal (in target 'cmTC_ddfee' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_dependency_info.dat -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/cmTC_ddfee
+        Apple clang version 12.0.0 (clang-1200.0.32.29)
+        Target: x86_64-apple-macos10.15
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/cmTC_ddfee -L/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee.LinkFileList -object_path_lto /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug
+        @(#)PROGRAM:ld  PROJECT:ld64-609.8
+        BUILD 15:07:46 Dec 18 2020
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib
+        Framework search paths:
+        	/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/
+        
+        RegisterExecutionPolicyException /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/cmTC_ddfee (in target 'cmTC_ddfee' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE
+            builtin-RegisterExecutionPolicyException /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/cmTC_ddfee
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ddfee -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ddfee -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: []
+        ignore line: [User defaults from command line:]
+        ignore line: [    HideShellScriptEnvironment = YES]
+        ignore line: []
+        ignore line: [note: Using new build system]
+        ignore line: [note: Building targets in parallel]
+        ignore line: [note: Planning build]
+        ignore line: [note: Constructing build description]
+        ignore line: [CreateBuildDirectory /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build (in target 'cmTC_ddfee' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE]
+        ignore line: [    builtin-create-build-directory /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee.LinkFileList (in target 'cmTC_ddfee' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE]
+        ignore line: [    write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee.LinkFileList]
+        ignore line: []
+        ignore line: [CompileC /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_ddfee' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos10.15 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR\\=\\"Debug\\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/include -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources-normal/x86_64 -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources/x86_64 -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCCompilerABI.c -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.o]
+        ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
+        ignore line: [Target: x86_64-apple-macos10.15]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -dependency-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/include -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources-normal/x86_64 -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources/x86_64 -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdebug-compilation-dir /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.dia -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/CMakeCCompilerABI.o -x c /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0]
+        ignore line: [ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/include"]
+        ignore line: [ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources-normal/x86_64"]
+        ignore line: [ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources/x86_64"]
+        ignore line: [ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/DerivedSources"]
+        ignore line: [ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: []
+        ignore line: [Ld /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/cmTC_ddfee normal (in target 'cmTC_ddfee' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_dependency_info.dat -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/cmTC_ddfee]
+        ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
+        ignore line: [Target: x86_64-apple-macos10.15]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/cmTC_ddfee -L/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee.LinkFileList -object_path_lto /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug]
+                  to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/cmTC_ddfee -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee.LinkFileList -object_path_lto /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a ]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/cmTC_ddfee -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee.LinkFileList -object_path_lto /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a ]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [10.15.0] ==> ignore
+          arg [11.1] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug/cmTC_ddfee] ==> ignore
+          arg [-filelist] ==> ignore
+          arg [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee.LinkFileList] ==> ignore
+          arg [-object_path_lto] ==> ignore
+          arg [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_lto.o] ==> obj [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_lto.o]
+          arg [-no_deduplicate] ==> ignore
+          arg [-v] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dependency_info] ==> ignore
+          arg [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_dependency_info.dat] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+        Framework search paths: [;/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug] ==> [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug], skipping non-system directory
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+        collapse framework dir [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug] ==> [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/Debug], skipping non-system directory
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-DKkDfE/build/cmTC_ddfee.build/Debug/Objects-normal/x86_64/cmTC_ddfee_lto.o]
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/lizastepanova/Desktop/\u043d\u0435\u043e\u0442\u043e\u043b\u043e\u0433\u0438\u044f/\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0438\u0306/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr"
+      binary: "/Users/lizastepanova/Desktop/\u043d\u0435\u043e\u0442\u043e\u043b\u043e\u0433\u0438\u044f/\u041e\u0441\u043d\u043e\u0432\u043d\u043e\u0438\u0306/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.15"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr
+        
+        Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_f2b19 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_f2b19 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+        
+        note: Using new build system
+        note: Building targets in parallel
+        note: Planning build
+        note: Constructing build description
+        CreateBuildDirectory /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build (in target 'cmTC_f2b19' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr
+            builtin-create-build-directory /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build
+        
+        CompileC /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_f2b19' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos10.15 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR\\=\\"Debug\\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/include -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources-normal/x86_64 -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources/x86_64 -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+        Apple clang version 12.0.0 (clang-1200.0.32.29)
+        Target: x86_64-apple-macos10.15
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -dependency-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/include -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources-normal/x86_64 -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources/x86_64 -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdeprecated-macro -fdebug-compilation-dir /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0
+        ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/include"
+        ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources-normal/x86_64"
+        ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources/x86_64"
+        ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources"
+        ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        
+        WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19.LinkFileList (in target 'cmTC_f2b19' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr
+            write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19.LinkFileList
+        
+        Ld /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/cmTC_f2b19 normal (in target 'cmTC_f2b19' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_dependency_info.dat -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/cmTC_f2b19
+        Apple clang version 12.0.0 (clang-1200.0.32.29)
+        Target: x86_64-apple-macos10.15
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/cmTC_f2b19 -L/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19.LinkFileList -object_path_lto /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug
+        @(#)PROGRAM:ld  PROJECT:ld64-609.8
+        BUILD 15:07:46 Dec 18 2020
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib
+        Framework search paths:
+        	/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/
+        
+        RegisterExecutionPolicyException /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/cmTC_f2b19 (in target 'cmTC_f2b19' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr
+            builtin-RegisterExecutionPolicyException /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/cmTC_f2b19
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_f2b19 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_f2b19 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: []
+        ignore line: [User defaults from command line:]
+        ignore line: [    HideShellScriptEnvironment = YES]
+        ignore line: []
+        ignore line: [note: Using new build system]
+        ignore line: [note: Building targets in parallel]
+        ignore line: [note: Planning build]
+        ignore line: [note: Constructing build description]
+        ignore line: [CreateBuildDirectory /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build (in target 'cmTC_f2b19' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr]
+        ignore line: [    builtin-create-build-directory /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build]
+        ignore line: []
+        ignore line: [CompileC /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_f2b19' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos10.15 -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR\\=\\"Debug\\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/include -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources-normal/x86_64 -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources/x86_64 -I/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
+        ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
+        ignore line: [Target: x86_64-apple-macos10.15]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/c++/v1"]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=11.1 -target-cpu penryn -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 609.8 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -dependency-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/include -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources-normal/x86_64 -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources/x86_64 -I /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdeprecated-macro -fdebug-compilation-dir /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/CMakeCXXCompilerABI.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 12.0.0 (clang-1200.0.32.29) default target x86_64-apple-darwin19.6.0]
+        ignore line: [ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/include"]
+        ignore line: [ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources-normal/x86_64"]
+        ignore line: [ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources/x86_64"]
+        ignore line: [ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/DerivedSources"]
+        ignore line: [ignoring nonexistent directory "/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19.LinkFileList (in target 'cmTC_f2b19' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr]
+        ignore line: [    write-file /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19.LinkFileList]
+        ignore line: []
+        ignore line: [Ld /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/cmTC_f2b19 normal (in target 'cmTC_f2b19' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -L/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_dependency_info.dat -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/cmTC_f2b19]
+        ignore line: [Apple clang version 12.0.0 (clang-1200.0.32.29)]
+        ignore line: [Target: x86_64-apple-macos10.15]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/cmTC_f2b19 -L/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19.LinkFileList -object_path_lto /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a -F/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug]
+                  to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/cmTC_f2b19 -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19.LinkFileList -object_path_lto /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a ]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 11.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/cmTC_f2b19 -filelist /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19.LinkFileList -object_path_lto /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a ]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [10.15.0] ==> ignore
+          arg [11.1] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug/cmTC_f2b19] ==> ignore
+          arg [-filelist] ==> ignore
+          arg [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19.LinkFileList] ==> ignore
+          arg [-object_path_lto] ==> ignore
+          arg [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_lto.o] ==> obj [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_lto.o]
+          arg [-no_deduplicate] ==> ignore
+          arg [-v] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dependency_info] ==> ignore
+          arg [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_dependency_info.dat] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+        Framework search paths: [;/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug] ==> [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug], skipping non-system directory
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+        collapse framework dir [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug] ==> [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/Debug], skipping non-system directory
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: [/Users/lizastepanova/Desktop/неотология/Основной/Cmakeeeee/2/build/CMakeFiles/CMakeScratch/TryCompile-FJNwQr/build/cmTC_f2b19.build/Debug/Objects-normal/x86_64/cmTC_f2b19_lto.o]
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/lib]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks]
+      
+      
+...
